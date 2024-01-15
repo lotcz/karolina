@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+
+:root {
+	--gold: #04BF37;
+	--light: #F4BF47;
+	--highlight: yellow;
+	--light-gray: #c0c0c0;
+}
+
+body {
+	font-family: 'Lora', Times New Roman, serif;
+	font-size: 16pt;
+}
+
+nav.navbar {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 180%;
+	text-align: center;
+	border-style: solid;
+	border-width: 1px 0 1px 0;
+	border-color: var(--gold);
+	text-transform: uppercase;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 6rem;
+	margin-bottom: 2rem;
+}
+
+h3 {
+	font-size: 150%;
+	text-align: center;
+	color: var(--gold);
+	border-bottom: solid 1px var(--light-gray);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1em;
+	display: inline-block;
+	padding: 5px;
+}
+
+h4 {
+	font-size: 130%;
+	padding-top: 0.8rem;
+	padding-bottom: 0.5rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.btn-primary {
+	background-color: var(--gold);
+	color: white;
+	border-color: var(--gold);
+}
+
+.btn-primary:disabled {
+	background-color: var(--light);
+	border-color: var(--light);
+}
+
+.btn-primary:hover {
+	--background-color: var(--highlight);
+	--border-color: var(--highlight);
+}
+
+strong {
+	font-weight: bold;
+}
+
+.intro img {
+	max-width: 200px;
+}
+
+.main {
+	position: relative;
+}
+
+.gold, strong, footer a {
+	color: var(--gold);
+}
+
+.separator {
+	background-image: url('img/separator.png');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+.map {
+	height: 400px;
+}
+
+footer {
+	font-size: 10px;
+}
+
+@media (max-width: 575px) {
+	body {
+		font-size: 12pt;
+	}
+	h2 {
+		margin-top: 3rem;
+	}
+}
