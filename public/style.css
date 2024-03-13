@@ -126,3 +126,11 @@ footer {
 		margin-top: 3rem;
 	}
 }
+
+.parameters .row {
+	margin-top: 10px;
+}
+
+p {
+	text-indent: 24pt;
+}
